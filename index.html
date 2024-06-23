@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+</head>
+<body>
+    <button onclick="logout()" id="logout"><span class="mdi mdi-logout"></span></button>
+    <button id="fullscreen-button"><span class="mdi mdi-fullscreen"></span></button>
+    <div class="container">
+        <div id="login-section">
+            <button id="login-button">Login with Spotify</button>
+        </div>
+        <div id="player-section" style="display: none;">
+            <div class="album-cover">
+                <img id="album-image" src="" alt="Album Cover">
+            </div>
+            <div class="song-details">
+                <p id="song-title"></p>
+                <p id="artist-name"></p>
+            </div>
+            <div class="progress-container">
+                <span id="current-time">0:00</span>
+                <div class="progress-bar">
+                    <div id="progress" class="progress"></div>
+                </div>
+                <span id="total-time">0:00</span>
+            </div>
+        </div>
+    </div>
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/fullscreen.js"></script>
+</body>
+</html>
