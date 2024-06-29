@@ -1,6 +1,6 @@
 const clientId = '83769403dc4a4d278496b839eef05ab4';
 const clientSecret = '02b626960c884681966fa2bf39b002f3';
-const redirectUri = 'http://127.0.0.1:5500/';
+const redirectUri = 'https://projects.jessehoekema.com/now-playing-spotify/';
 let accessToken = '';
 let progress = 0;
 let duration = 0;
