@@ -14,7 +14,7 @@ const gradient = 'linear-gradient(109.6deg, rgb(255, 230, 109) 11.2%, rgb(87, 23
 
 
 document.getElementById('login-button').addEventListener('click', () => {
-    const authUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=code&redirect_uri=${redirectUri}&scope=user-read-currently-playing`;
+    const authUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=code&redirect_uri=https://projects.jessehoekema.com/now-playing-spotify/&scope=user-read-currently-playing`;
     window.location.href = authUrl;
 });
 
