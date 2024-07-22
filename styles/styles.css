@@ -13,9 +13,7 @@ body {
     backdrop-filter: blur(5px); /* Vervaging van 10px */
     transition: all 0.5s ease-in-out; /* Smooth transition */
 }
-body:hover {
-    backdrop-filter: blur(4px);
-}
+
 
 .container {
     text-align: center;
